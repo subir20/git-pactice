@@ -1,4 +1,4 @@
-console.log("Hello World!");
+console.log("Welcome To ELearn!");
 
 const video = document.querySelector("video");
 const media = document.querySelector(".media");
