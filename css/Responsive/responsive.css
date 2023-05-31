@@ -164,8 +164,6 @@
         color: gray;
     }
 
-    
-
     #nav-bar>li>a:hover{
         font-weight: bold;
     }
@@ -185,6 +183,10 @@
     .head-text {
 
         font-size: 6.5rem;
+    }
+
+    #categories {
+        padding-top: 95px;
     }
 
     .categories-list>div {
@@ -289,6 +291,9 @@
         padding: 50px 20px;
     }
 
+    #course {
+        padding-top: 95px;
+    }
     .course-cover {
         height: 219px;
     }
@@ -296,6 +301,9 @@
     .course-img img {
         height: 100px;
     }
+
+    #register {
+        padding-top: 95px !important;
 }
 
 @media screen and (min-width:1200px) {
@@ -424,6 +432,7 @@ For Learge Screen
 
     #categories{
         clear: both;
+        padding-top: 55px;
     }
 
     .list-text,.courses-count{
@@ -458,6 +467,10 @@ For Learge Screen
         font-size: 3rem;
     }
 
+    #course {
+        padding-top: 55px;
+    }
+
     #course-list>div>a {
         display: flex;
         flex-direction: row;
@@ -468,6 +481,10 @@ For Learge Screen
     .course-cover,.course-cover>img{
         width: 150px;
         height: 150px;
+    }
+
+    #register {
+        padding-top: 88px !important;
     }
 
     .about{

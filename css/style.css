@@ -242,10 +242,6 @@ Side Bar section
     color: rgb(0, 196, 150);
 }
 
-section#categories {
-    padding-top: 55px;
-}
-
 .categories-list {
     display: flex;
     flex-direction: column;
@@ -567,7 +563,6 @@ section#categories {
 }
 
 #course{
-    padding-top: 55px;
     background: linear-gradient(rgb(255, 243, 243),rgb(235, 245, 255));
 }
 
@@ -662,7 +657,6 @@ section#categories {
 }
 
 #register{
-    padding-top: 88px !important;
     background-color: rgb(0, 115, 164);
     padding: 30px;
 }
