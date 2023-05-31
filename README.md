@@ -19,7 +19,7 @@
 
 ### Contact📞
 
-If you want to contact with me, you can reach me at [Linkedin](www.linkedin.com/in/subirkumarpratihar).
+If you want to contact with me, you can reach me at [Linkedin](https://www.linkedin.com/in/subirkumarpratihar/).
 
 
 ### Hire Me 🧑🏻‍💼
