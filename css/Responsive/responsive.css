@@ -1,0 +1,524 @@
+@media screen and (min-width:600px) {
+    /* For Tablet Design */
+
+    header {
+        padding: 15px 30px
+    }
+
+    .logo-text,
+    .logo-text::first-letter {
+        font-size: 4rem;
+    }
+
+    .head-text {
+        font-size: 5.;
+    }
+
+    #home {
+        height: 480px;
+        padding: 60px 20px;
+    }
+
+    .categories-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .categories-list>div {
+        width: 48%;
+    }
+
+    #rating {
+        height: 460px;
+    }
+
+    .online-class {
+        height: 350px;
+    }
+
+    .school {
+        width: 80px;
+        height: 80px;
+        font-size: 5rem;
+        top: 28px;
+        left: -30px;
+    }
+
+    .discount {
+        bottom: 20px;
+        left: -38px;
+        padding: 7px;
+        font-size: 1.4rem;
+        height: 60px;
+        align-items: center;
+    }
+
+    .discount-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .discount-text {
+        font-size: 1.5rem;
+    }
+
+    .youtube-sub {
+        height: 50px;
+        top: 25px;
+    }
+
+    .youtube-logo {
+        font-size: 3rem;
+    }
+
+    .youtube-name {
+        font-size: 2rem;
+    }
+
+    .youtube-rating {
+        font-size: 2rem;
+    }
+
+    .satisfied {
+        bottom: 26px;
+        right: -60px;
+    }
+
+    #course-list {
+        display: flex;
+        grid-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #course-list>div {
+        /* height: ; */
+        width: 48%;
+    }
+
+    .course-cover {
+        height: 270px;
+    }
+
+    .course-cover img {
+        height: 100%;
+    }
+
+    .register-title {
+        font-size: 4rem;
+    }
+
+    #elearn-info {
+        display: flex;
+        grid-gap: 20px;
+    }
+
+    #elearn-info>div {
+        width: 50%;
+    }
+
+    .social-icon {
+        margin-top: 70px;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+
+    /* 
+    For PC/Laptop Design 
+    */
+
+    #nav-bar {
+        display: flex;
+    }
+
+    #tool {
+        display: flex;
+    }
+
+    #side-bar-btn {
+        display: none;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    #nav-bar{
+        display: flex;
+        grid-gap: 20px;
+    }
+
+    #nav-bar>li{
+        width: 110px;
+        margin: 0px 25px;
+        text-align: center;
+    }
+    
+    #nav-bar>li>a{
+        font-size: 2rem;
+        font-weight: lighter;
+        font-size: 2rem;
+        color: gray;
+    }
+
+    
+
+    #nav-bar>li>a:hover{
+        font-weight: bold;
+    }
+
+    #tool>button{
+        background-color: black;
+        color: white;
+        border: none;
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+
+    .head-text {
+
+        font-size: 6.5rem;
+    }
+
+    .categories-list>div {
+        width: 31%;
+    }
+
+    #rating {
+        height: 400px;
+        float: left;
+        width: 48%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .online-class {
+        position: absolute;
+        width: 70%;
+        height: 250px;
+    }
+
+    .class-img {
+        margin: 0px auto;
+
+    }
+
+    .class-img>img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .school {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 2;
+        font-size: 2.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: dodgerblue;
+        color: white;
+        top: 16px;
+        left: -18px;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .youtube-sub {
+        position: absolute;
+        display: flex;
+        z-index: 1;
+        right: -35px;
+        top: 15px;
+        height: 30px;
+        padding: 5px;
+        background-color: white;
+        border-radius: 5px;
+        align-items: center;
+    }
+
+    .youtube-logo {
+        color: red;
+    }
+
+    .youtube-name {
+        font-size: 1.2rem;
+    }
+
+    .youtube-rating {
+        font-weight: bold;
+    }
+
+    .gold {
+        color: rgb(217, 217, 217);
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .discount {
+        bottom: 20px;
+        left: -38px;
+    }
+
+    .discount-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .discount-text {
+        font-size: 1rem;
+    }
+
+    .satisfied {
+        bottom: 8px;
+        right: -40px;
+    }
+
+    #statistics,
+    #rating {
+        padding: 50px 20px;
+    }
+
+    .course-cover {
+        height: 219px;
+    }
+
+    .course-img img {
+        height: 100px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    /* 
+For Learge Screen 
+ */
+
+    html {
+        font-size: 8px;
+    }
+
+    .btn {
+        width: 300px;
+        font-size: 2.8rem;
+    }
+
+    #nav-bar>li>a{
+        font-size: 3rem;
+    }
+
+    
+    #home {
+        width: 50%;
+        float: left;
+        height: 580px;
+    }
+
+    .head-text {
+        font-size: 7.5rem;
+    }
+
+    .head-info {
+        margin: 10px 0px;
+    }
+    
+    #spent-hours{
+        display: block;
+        padding-top: 40px;
+        float: right;
+        width: 50%;
+        height: 580px;
+        background-color: rgb(255, 245, 245);
+    }
+
+    .monthly-data{
+        padding-top: 40px;
+        width: 500px;
+        text-align: center;
+        font-size: 3rem;
+        background-color: white;
+        font-weight: bold;
+        position: relative;
+        bottom: -15px;
+        z-index: 1;
+        margin: 0px auto;
+    }
+
+    .monthly-data>span{
+        text-align: center;
+        color: green;
+        font-size: 4rem;
+        text-shadow: 1px 1px 2px black;
+    }
+
+
+    .clock{
+        position: absolute;
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        color: white;
+        border-radius: 50%;
+        background-color: red;
+        top: -20px;
+        right: -20px;
+        text-shadow: .5px .5px 1px black;
+    }
+    
+    .spent-data{
+        margin: 0px auto;
+        position: relative;
+        width: 500px;
+        height: 400px
+    }
+    
+    .spent-data>img{
+        width: 100%;
+        height: 100%;
+        margin: 0px auto;
+    }
+
+    .online-profile{
+        position: relative;
+        bottom: 90px;
+        left: -100px;
+        display: flex;
+    }
+    
+    .online-profile>div{
+        width: 50px;
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+        outline: 7px solid white;
+    }
+
+    .online-profile img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .user-count{
+        background-color: red;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    #categories{
+        clear: both;
+    }
+
+    .list-text,.courses-count{
+        font-size: 2.5rem;
+    }
+
+    .online-class {
+        height: 340px;
+    }
+
+    .school {
+        width: 50px;
+        height: 50px;
+        font-size: 4rem;
+        }
+
+    .discount-info {
+        font-size: 2rem;
+        /* line-height: 1; */
+    }
+
+    .satisfied-unit {
+        padding: 4px;
+    }
+
+    .section-info {
+        font-size: 4rem;
+        margin: 24px 0px 20px;
+    }
+
+    .section-info>.top-text{
+        font-size: 3rem;
+    }
+
+    #course-list>div>a {
+        display: flex;
+        flex-direction: row;
+        grid-gap: 20px;
+        /* min-height: 200px; */
+    }
+
+    .course-cover,.course-cover>img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .about{
+        padding-bottom: 30px;
+    }
+
+    .about .logo-text{
+        margin: 25px 0px;
+        color: red;
+        font-size: 8rem;
+    }
+
+    .about .logo-text::first-letter {
+        font-size: 7rem;
+    }
+
+    .about>p {
+        font-size: 2.6rem;
+    }
+
+    .social-icon {
+        width: 380px;
+    }
+
+    .social-icon>div {
+        width: 70px;
+        height: 70px;
+        font-size: 5.5rem;
+    }
+
+    .top-course>h4 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .course-img {
+        display: grid;
+        grid-template-columns: repeat(3,144px);
+        grid-gap: 30px;
+        margin: 30px 100px;
+    }
+
+    footer {
+        font-size: 3rem;
+        padding: 5px;
+        min-height: 40px;
+    }
+
+
+
+
+
+
+}

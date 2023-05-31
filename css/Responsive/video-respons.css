@@ -1,0 +1,119 @@
+@media screen and (min-width:600px) {
+    /* 
+    
+    ----- For Tablet Design -----
+    
+    */
+
+    html {
+        font-size: 15px;
+    }
+
+    .video-control>div {
+        grid-gap: 20px;
+    }
+
+    .control {
+        grid-gap: 15.1px !important;
+    }
+
+    .volume {
+        grid-gap: 15px;
+    }
+
+    .instructor-img {
+        width: 18%;
+    }
+
+    .instructor-img>i{
+        font-size: 100%;
+    }
+
+    label {
+        width: 44px;
+    }
+
+    input#commentText {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+
+    input[type="submit"] {
+        font-size: 1.5rem;
+        padding: 5px 10px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    /* 
+
+    ----- For PC/Laptop Design -----
+
+    */
+
+    section#firstDiv {
+        display: flex;
+        grid-gap: 15px;
+    }
+
+    
+    #firstDiv{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    div#video {
+        width: 60%;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .course {
+        display: block;
+        position: relative;
+        width: 37%;
+        margin: 0px;
+        border-radius: 5px;
+        background-color: transparent;
+        padding: 0px;
+        overflow: scroll;
+        height: 570px;
+        border: none;
+        margin: 10px 0px;
+        border-bottom: 1px solid;
+    }
+
+    .content {
+        display: flex;
+    }
+
+    .show{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    /* 
+
+-----For Learge Screen -----
+
+ */
+
+ main>div{
+    padding: 20px !important;
+ }
+
+    .course {
+        height: 680px;
+        border-bottom: none;
+    }
+
+    .instructor-img {
+        width: 15%;
+    }
+}

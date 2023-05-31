@@ -1,18 +1,428 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git Pactice</title>
-    <link rel="stylesheet" href="style.css">
+    <title>ELearn</title>
+    <link rel="icon" type="image/x-icon" href="/icon/ai.png">
+    <link rel="stylesheet" href="icon/fontawsome/css/all.min.css">
+    <link rel="stylesheet" href="icon/fontawsome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Responsive/responsive.css">
 </head>
-<body>
-    <div class="name">
-        <h1>I am a Programmer.</h1>
-        <h1>Now! I am learning Git.</h1>
-    </div>
 
-    <script src="script.js"></script>
+<body>
+    <header>
+        <div id="logo">
+            <div class="logo-text">ELearn</div>
+        </div>
+        <nav>
+            <ul id="nav-bar">
+                <li class="home"><a href="#">Home</a></li>
+                <li class="products"><a href="#categories">Categories</a></li>
+                <li class="course"><a href="#course">Courses</a></li>
+                <li class="contact"><a href="#register">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="tool">
+            <button class="free-trial"><a href="video.html" target="_blank">Start Free Trial</a></button>
+        </div>
+    </header>
+
+    <section id="side-bar">
+
+        <div class="close-btn"><i class="fa-solid fa-xmark"></i></div>
+        <div id="logo">
+            <div class="logo-text">ELearn</div>
+        </div>
+
+        <nav id="nav-bar">
+            <a href="#">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#course">Courses</a>
+            <a href="#register">Contact</a>
+        </nav>
+    </section>
+    <main id="main">
+        <section id="home">
+            <h2 class="head-text">Better <span class="co-red">Learning Future</span> Starts With ELearn</h2>
+            <p class="head-info">It is long established fact that reader distracted by the readable content.</p>
+            <button class="btn start-now">Get Started Now</button>
+        </section>
+
+        <section id="spent-hours">
+            <div class="monthly-data">Monthly Spent Hours <br> <span class="hrs">00</span>:<span
+                    class="min">00</span>:<span class="sec">00</span></div>
+            <div class="spent-data">
+                <div class="clock"><i class="fa-solid fa-clock"></i></div>
+                <img src="image/chat.jpg" alt="">
+                <div class="online-profile">
+                    <div class="user-1"><img src="image/female1.png" alt="User"></div>
+                    <div class="user-2"><img src="image/male1.jpg" alt="User"></div>
+                    <div class="user-3"><img src="image/female2.jpg" alt="User"></div>
+                    <div class="user-4"><img src="image/male2.jpg" alt="User"></div>
+                    <div class="user-count">999+</div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="categories">
+            <h3 class="section-info">
+                <div class="top-text">Course Categories</div>
+                <div class="section-text">Browse Top <span class="co-red">Categories</span> </div>
+            </h3>
+            <div class="categories-list">
+                <div class="data.sc list">
+                    <a href="#course">
+                        <div class="list-img"><img src="/icon/data Science.png" alt="" srcset=""></div>
+                        <div class="list-data">
+                            <div class="list-text">Data Science</div>
+                            <div class="courses-count">24 Courses</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="ai list">
+                    <a href="#course">
+                        <div class="list-img"><img src="/icon/ai.png" alt="" srcset=""></div>
+                        <div class="list-data">
+                            <div class="list-text">Artificial Intelligence</div>
+                            <div class="courses-count">24 Courses</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="web list">
+                    <a href="#course">
+                        <div class="list-img"><img src="/icon/web development.png" alt="" srcset=""></div>
+                        <div class="list-data">
+                            <div class="list-text">Web Development</div>
+                            <div class="courses-count">24 Courses</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="app list">
+                    <a href="#course">
+                        <div class="list-img"><img src="/icon/app development.png" alt="" srcset=""></div>
+                        <div class="list-data">
+                            <div class="list-text">App Development</div>
+                            <div class="courses-count">24 Courses</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="blockchain list">
+                    <a href="#course">
+                        <div class="list-img"><img src="icon/blockchain.png" alt=""></div>
+                        <div class="list-data">
+                            <div class="list-text">Blockchain Development</div>
+                            <div class="courses-count">24 Courses</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="finance list">
+                    <a href="#course">
+                        <div class="list-img"><img src="icon/finance.png" alt="" srcset=""></div>
+                        <div class="list-data">
+                            <div class="list-text">Finance</div>
+                            <div class="courses-count">24 Courses</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="health list">
+                    <a href="#course">
+                        <div class="list-img"><img src="/icon/health.png" alt=""></div>
+                        <div class="list-data">
+                            <div class="list-text">Health & Fitnance</div>
+                            <div class="courses-count">24 Courses</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <button class="btn view-categories">View All Categories</button>
+        </section>
+
+        <section id="rating">
+            <div class="online-class">
+                <div class="school"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="youtube-sub">
+                    <div class="youtube-logo"><i class="fa-brands fa-youtube"></i></div>
+                    <div class="youtube-name">YouTube</div>
+                    <div class="youtube-rating">15<span class="gold">M</span></div>
+                </div>
+                <div class="class-img"><img src="/image/0nline class.png" alt=""></div>
+                <div class="discount">
+                    <div class="discount-img"><img src="/icon/discount.png" alt=""></div>
+                    <div class="discount-info">
+                        <div class="discount-no">25% OFF</div>
+                        <div class="discount-text">For All Courses</div>
+                    </div>
+                </div>
+                <div class="satisfied">
+                    <div class="outer">
+                        <div class="ring">
+                            <div class="inner-ring">
+                                <div class="small-ring"></div>
+                            </div>
+                        </div>
+                        <div class="inner">
+                            <div class="satisfied-logo"><img src="icon/trophy.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="satisfied-unit">
+                        <div class="grade">Excelent</div>
+                        <div class="grade-info">95% Satisfied Students</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="statistics">
+            <h3 class="section-info">
+                <div class="top-text">Course Categories</div>
+                <div class="section-text">We Provide The Best Online <span class="co-red">Education</span> </div>
+            </h3>
+            <p class="section-description">There are many variations of passages of Lorem Ipsum available, but the
+                majority
+                have suffered alteration in some form, by Subir.</p>
+
+            <div class="statistics-list">
+                <div class="development-sort">
+                    <div class="sort">
+                        <div class="sort-title">Development</div>
+                        <div class="sort-unit">99%</div>
+                    </div>
+                    <div class="outer-bar" ">
+                        <div class=" inner-bar" style="width: 99%;"></div>
+                </div>
+            </div>
+
+            <div class="health-sort">
+                <div class="sort">
+                    <div class="sort-title">Health</div>
+                    <div class="sort-unit">80%</div>
+                </div>
+                <div class="outer-bar"">
+                        <div class=" inner-bar" style="width: 80%;"></div>
+            </div>
+            </div>
+
+            <div class="finance-sort">
+                <div class="sort">
+                    <div class="sort-title">Finance</div>
+                    <div class="sort-unit">20%</div>
+                </div>
+                <div class="outer-bar" ">
+                        <div class=" inner-bar" style="width: 20%;"></div>
+            </div>
+            </div>
+            </div>
+
+        </section>
+
+        <section id="course">
+            <h3 class="section-info">
+                <div class="top-text">Featured Courses</div>
+                <div class="section-text">Choose Unlimited <span class="co-red">Courses</span> </div>
+            </h3>
+            <div id="course-list">
+                <div class="course-1">
+                    <a href="video.html" target="_blank">
+                        <div class="course-cover">
+                            <img src="/icon/data Science.png" alt="Data Science">
+                        </div>
+                        <div class="course-info">
+                            <div class="course-graed">
+                                <div class="course-price">&#8377;3,499</div>
+                                <div class="course-rate">
+                                    <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="course-title">The Data Science Course 2023: Complete Data Science Bootcamp</div>
+                            <div class="course-data">
+                                <div class="lessons-count"><i class="fa-regular fa-clipboard"></i>517 Lessons </div>
+                                <div class="student"><i class="fa-regular fa-user"></i> 120k Students</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="course-2">
+                    <a href="video.html" target="_blank">
+                        <div class="course-cover">
+                            <img src="/icon/ai.png" alt="AI">
+                        </div>
+                        <div class="course-info">
+                            <div class="course-graed">
+                                <div class="course-price">&#8377;3299</div>
+                                <div class="course-rate">
+                                    <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="course-title">Artificial Intelligence A-Z™: Learn How To Build An AI</div>
+                            <div class="course-data">
+                                <div class="lessons-count"><i class="fa-regular fa-clipboard"></i>125 Lessons </div>
+                                <div class="student"><i class="fa-regular fa-user"></i> 198k Students</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="course-3">
+                    <a href="video.html" target="_blank">
+                        <div class="course-cover">
+                            <img src="/icon/web development.png" alt="Feluda Samagra">
+                        </div>
+                        <div class="course-info">
+                            <div class="course-graed">
+                                <div class="course-price">Free</div>
+                                <div class="course-rate">
+                                    <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="course-title">The Complete 2023 Web Development Bootcamp</div>
+                            <div class="course-data">
+                                <div class="lessons-count"><i class="fa-regular fa-clipboard"></i>490 Lessons
+                                </div>
+                                <div class="student"><i class="fa-regular fa-user"></i> 1.5M Students</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="course-4">
+                    <a href="video.html" target="_blank">
+                        <div class="course-cover">
+                            <img src="/icon/app development.png" alt="app">
+                        </div>
+                        <div class="course-info">
+                            <div class="course-graed">
+                                <div class="course-price">&#8377;1099</div>
+                                <div class="course-rate">
+                                    <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="course-title">Mobile App Development with Flutter & Dart (iOS and Android)</div>
+                            <div class="course-data">
+                                <div class="lessons-count"><i class="fa-regular fa-clipboard"></i>145 Lessons
+                                </div>
+                                <div class="student"><i class="fa-regular fa-user"></i> 12k Students</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="course-5">
+                    <a href="video.html" target="_blank">
+                        <div class="course-cover">
+                            <img src="/icon/health.png" alt="Health">
+                        </div>
+                        <div class="course-info">
+                            <div class="course-graed">
+                                <div class="course-price">Free</div>
+                                <div class="course-rate">
+                                    <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="course-title">Health Masterclass: How To Transform Your Health & Life</div>
+                            <div class="course-data">
+                                <div class="lessons-count"><i class="fa-regular fa-clipboard"></i>30 Lessons
+                                </div>
+                                <div class="student"><i class="fa-regular fa-user"></i> 12K Students</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="course-6">
+                    <a href="video.html" target="_blank">
+                        <div class="course-cover">
+                            <img src="/icon/finance.png" alt="Finance">
+                        </div>
+                        <div class="course-info">
+                            <div class="course-graed">
+                                <div class="course-price">&#8377;449</div>
+                                <div class="course-rate">
+                                    <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="course-title">Passive Income 6 figures Drop Servicing Home Online Business</div>
+                            <div class="course-data">
+                                <div class="lessons-count"><i class="fa-regular fa-clipboard"></i>60 Lessons
+                                </div>
+                                <div class="student"><i class="fa-regular fa-user"></i> 9k Students</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <button class="btn view-courses">View All Courses</button>
+        </section>
+
+        <section id="register">
+            <h3 class="register-title">Education Is About Creating Leaders For Tomorrow</h3>
+            <button class="btn register-today">Register Today</button>
+        </section>
+
+    </main>
+
+    <section id="elearn-info">
+        <div class="about">
+            <div id="logo">
+                <div class="logo-text">Elearn</div>
+            </div>
+            <p>Lorem ipsum amet, consectetur adipiscing elit. Suspendis varius enim eros elementum tristique. Duis
+                cursus.</p>
+            <div class="social-icon">
+                <div class="facebook"><i class="fa-brands fa-facebook"></i></div>
+                <div class="linkedin"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="google"><i class="fa-brands fa-google"></i></div>
+                <div class="youtube"><i class="fa-brands fa-youtube"></i></div>
+            </div>
+        </div>
+
+        <div class="top-course">
+            <h4>Top Course</h4>
+            <div class="course-img">
+                <img src="icon/ai.png" alt="">
+                <img src="icon/app development.png" alt="">
+                <img src="icon/data Science.png" alt="">
+                <img src="icon/web development.png" alt="">
+                <img src="icon/health.png" alt="">
+                <img src="icon/finance.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>
+            &copy;2023 <span class="co-name">Elearn</span><sup>&trade;</sup>. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="/JavaScript/script.js"></script>
+
+
 </body>
+
 </html>
