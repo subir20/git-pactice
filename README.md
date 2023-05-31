@@ -12,7 +12,9 @@
 
 ### Demo Screeshots
 
-![Youdemi Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![ELearn Desktop Demo](image/readme_img/ELearn_img.png "Desktop Demo") 
+
+![ELearn Desktop Demo](image/readme_img/ELearn_img_video.png "Desktop Demo")
 
 
 ### Contact📞
