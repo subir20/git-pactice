@@ -24,5 +24,5 @@ If you want to contact with me, you can reach me at [Linkedin](https://www.linke
 
 ### Hire Me 🧑🏻‍💼
 
-If you want to create a Responsive Website for your business growth, YOu can reach me at [🔗](https://subirkumarpratihar.github.io/subirKumar/) or [Upwork](https://www.upwork.com/freelancers/~018217ee6c19c3fd98) .
+If you want to create a Responsive Website for your business growth, You can reach me at [🔗](https://subirkumarpratihar.github.io/subirKumar/) or [Upwork](https://www.upwork.com/freelancers/~018217ee6c19c3fd98) .
 
